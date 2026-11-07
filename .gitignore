@@ -1,0 +1,31 @@
+# --- Data: never commit (raw files are 160-210 MB each; GitHub limit is 100 MB) ---
+data/raw/*
+data/processed/*
+data/external/*
+!data/*/.gitkeep
+models/*
+!models/.gitkeep
+*.csv
+*.parquet
+*.joblib
+!reports/*.csv
+!reports/**/*.csv
+
+# --- Local scratch ---
+scratch/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.venv/
+*.pkl
+*.pickle
+*.feather
+*.key
+.envrc
+venv/
+env/
+.vscode/
+.idea/
+.pytest_cache/
